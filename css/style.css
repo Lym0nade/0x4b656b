@@ -50,11 +50,6 @@ button {
 	border-color: #1fb0b2;
 }
 
-button:focus {
-	background-color: #ffffff;
-	color: #1fb0b2;
-}
-
 input {
 	font-family: sans-serif;
     	font-size: 14px;
