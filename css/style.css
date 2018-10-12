@@ -87,10 +87,9 @@ input.searcher {
 	margin-top: 7.5px;
 }
 input.chat {
-	width: 800px;
+	width: 500px;
 	border: 1px solid #1b1e1f;
 	overflow: auto;
-	align: center;
 }
 h1,
 h2,
