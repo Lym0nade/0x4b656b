@@ -107,7 +107,7 @@ strong {
     max-height: 50px;
 }
 .active {
-	color: #1FB0B2;
+	border-bottom: 5px #1fb0b2 solid;
 }
 
 .pull-right {
