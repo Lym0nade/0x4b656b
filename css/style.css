@@ -90,6 +90,10 @@ strong {
 	font-style: bold;
 }
 
+.active {
+	border-bottom: 5px #ff0000 solid;
+}
+
 .content {
 	width: 970px;
 	margin-right: auto;
@@ -98,10 +102,6 @@ strong {
     padding-right: 15px;
 	padding-top: 40px;
 	padding-bottom: 60px;
-}
-
-.active {
-	border-bottom: 5px #ff0000 solid;
 }
 
 .navbar {
