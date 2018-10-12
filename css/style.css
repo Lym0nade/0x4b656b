@@ -26,6 +26,11 @@ a:hover {
 	text-decoration: none;
 }
 
+a.fork {
+	padding: 0px;
+	color: #1fb0b2;
+}
+
 a.footer {
     	color: #1fb0b2;
     	text-decoration: none;
