@@ -93,11 +93,13 @@ input.searcher {
     	margin: 4px;
 	margin-top: 7.5px;
 }
+
 input.chat {
-	width: 500px;
+	width: 700px;
 	border: 1px solid #1b1e1f;
 	overflow: auto;
 }
+
 h1,
 h2,
 h3,
@@ -141,6 +143,7 @@ li.nav {
 	text-align: center;
 }
 
+li {color: green;}.c1 {color:red}.c2{color:yellow}.c3{color:blue}.c4{color:mediumpurple}.c5{color:cyan}.c6{color:white}
 
 p {
 	margin: 3px;
@@ -175,6 +178,14 @@ strong {
 	padding-left: 0px;
 	position: fixed;
    	 max-height: 50px;
+}
+
+.float-left {
+	float: left !important;
+}
+
+.float-right {
+	float: right !important;
 }
 
 .pull-right {
