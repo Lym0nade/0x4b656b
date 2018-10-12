@@ -4,7 +4,7 @@
 a {
     color: lightgrey;
 	padding: 12px;
-    text-decoration: none;
+    	text-decoration: none;
 	transition: #1fb2b0 0.3s ease;
 	-webkit-transition: 0.3s;
 	-moz-transition: 0.3s;
@@ -17,27 +17,55 @@ a:hover {
 }
 
 a.footer {
-    color: #1fb0b2;
-    text-decoration: none;
+    	color: #1fb0b2;
+    	text-decoration: none;
 }
 
 a.footer:hover {
-    color: white;
-    text-decoration: none;
+    	color: white;
+    	text-decoration: none;
 }
 
 body {
-    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-    color: #B8B8B9;
-    background-color: #161618;
+    	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    	font-size: 14px;
+    	line-height: 1.5;
+    	color: #B8B8B9;
+    	background-color: #161618;
 }
 
 button {
 	background-color: #121214;
 	color: #ffffff;
 	border-color: #1fb2b0;
+}
+
+input {
+	height: 20px;
+	width: 300px;
+	font-family: sans-serif;
+    	font-size: 14px;
+    	margin: 4px;
+    	border: 1px solid #1B1E1F;
+    	background-color: #1B1E1F;
+    	color: #bbb;
+    	outline: none;
+    	padding: 7px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+input:focus {
+    	outline: none !important;
+    	box-shadow: 0 0 5px rgba(31,178,176,1);
+}
+
+input.form {
+	width: 700px;
+}
+
+input.searcher {
+	margin-top: 7.5px;
 }
 
 h1,
@@ -67,10 +95,10 @@ hr {
 }
 
 ul.navbar-header {
-    list-style-type: none;
-    margin: 8;
-    padding: 0;
-    overflow: hidden;
+    	list-style-type: none;
+    	margin: 8;
+    	padding: 0;
+    	overflow: hidden;
 	display: block;
 	float: left
 }
@@ -97,9 +125,9 @@ strong {
 .content {
 	width: 970px;
 	margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    	margin-left: auto;
+    	padding-left: 15px;
+   	 padding-right: 15px;
 	padding-top: 40px;
 	padding-bottom: 60px;
 }
@@ -110,10 +138,10 @@ strong {
 	max-height: 49px;
 }
 .navbar {
-    padding-top: 0px;
+   	 padding-top: 0px;
 	padding-left: 0px;
 	position: fixed;
-    max-height: 50px;
+   	 max-height: 50px;
 }
 
 .pull-right {
@@ -135,11 +163,11 @@ strong {
 }
 
 #header {
-    width: 100%;
-    height: 50px;
-    background: rgba(16,16,19,0.78);
+   	 width: 100%;
+   	 height: 50px;
+   	 background: rgba(16,16,19,0.78);
 	border-bottom: #1fb2b0 1px solid;
-    position: fixed;
+   	 position: fixed;
 	top: 0px;
 	left: 0px;
 }
@@ -161,7 +189,7 @@ menu,
 nav,
 section,
 summary {
-    display: block;
+    	display: block;
 }
 
 code,
@@ -173,19 +201,19 @@ var {
 
 code {
 	font-size: 90%;
-    color: #8b2ada;
+    	color: #8b2ada;
 }
 
 pre {
 	font-family: monospace;
 	white-space: pre;
-    text-shadow: 2px 5px 15px #1dadb0;
+    	text-shadow: 2px 5px 15px #1dadb0;
 }
 
 .anim {
 
-    margin: 0;
-    animation: color 0.6s linear  infinite !important;
+    	margin: 0;
+    	animation: color 0.6s linear  infinite !important;
 }
     @keyframes color {
             0%   {color:red;}
@@ -205,18 +233,18 @@ pre {
 
 
 ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-    background-color: #9b9999!important;
+    	width: 10px;
+    	height: 10px;
+    	background-color: #9b9999!important;
 }
 
 ::-webkit-scrollbar-thumb {
-    width: 15px;
-    background: #1fb2b0!important;
+    	width: 15px;
+    	background: #1fb2b0!important;
 }
 
 ::-webkit-scrollbar-track-piece {
-    background-color: #222222!important;
-    width: 10px;
-    max-height: 10px!important;
+    	background-color: #222222!important;
+    	width: 10px;
+    	max-height: 10px!important;
 }
