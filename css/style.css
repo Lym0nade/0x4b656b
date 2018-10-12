@@ -44,6 +44,11 @@ body {
     	background-color: #161618;
 }
 
+button {
+	background-color: #1fb0b2;
+	color: #fff;
+}
+
 button.searcher {
 	display: inline-block;
 	background-color: #1fb0b2;
