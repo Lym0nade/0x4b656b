@@ -57,7 +57,7 @@ input {
 
 input:focus {
     	outline: none !important;
-    	box-shadow: 0 0 5px rgba(31,178,176,1);
+    	box-shadow: 0 0 5px rgba(31,176,178,1);
 }
 
 input.searcher {
