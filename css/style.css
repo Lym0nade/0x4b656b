@@ -45,9 +45,14 @@ body {
 }
 
 button {
-	background-color: #121214;
+	background-color: #1fb0b2;
 	color: #ffffff;
-	border-color: #1fb2b0;
+	border-color: #1fb0b2;
+}
+
+button:focus {
+	background-color: #ffffff;
+	color: #1fb0b2;
 }
 
 input {
