@@ -95,7 +95,7 @@ input.searcher {
 }
 
 input.chat {
-	width: 700px;
+	width: 500px;
 	border: 1px solid #1b1e1f;
 	overflow: auto;
 }
@@ -143,7 +143,7 @@ li.nav {
 	text-align: center;
 }
 
-li {color: green;}.c1 {color:red}.c2{color:yellow}.c3{color:blue}.c4{color:mediumpurple}.c5{color:cyan}.c6{color:white}
+li {}.c1 {color:red}.c2{color:yellow}.c3{color:blue}.c4{color:mediumpurple}.c5{color:cyan}.c6{color:white}.c7{color:green}
 
 p {
 	margin: 3px;
@@ -178,14 +178,6 @@ strong {
 	padding-left: 0px;
 	position: fixed;
    	 max-height: 50px;
-}
-
-.float-left {
-	float: left !important;
-}
-
-.float-right {
-	float: right !important;
 }
 
 .pull-right {
