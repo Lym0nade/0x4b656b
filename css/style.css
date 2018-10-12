@@ -103,7 +103,12 @@ strong {
 	padding-top: 40px;
 	padding-bottom: 60px;
 }
-
+.icon-bar {
+	float: left;
+	width: 5%;
+	text-align: center;
+	max-height: 49px;
+}
 .navbar {
     padding-top: 0px;
 	padding-left: 0px;
