@@ -44,10 +44,25 @@ body {
     	background-color: #161618;
 }
 
-button {
+button.searcher {
+	display: inline-block;
 	background-color: #1fb0b2;
 	color: #ffffff;
-	border-color: #1fb0b2;
+	border: 0px #1fb0b2 solid;
+	cursor: pointer;
+	padding: 10px 20px 10px 20px;
+	margin: 12px 0px 0px 0px;
+	float: left;
+}
+
+button.searcher:hover {
+	background-color: #ffffff;
+	color: #1fb0b2;
+	transition: #1fb0b2 0.3s linear;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	text-shadow: 2px 2px 5px #1fb0b2;
 }
 
 input {
