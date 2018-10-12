@@ -154,6 +154,23 @@ strong {
 	font-style: bold;
 }
 
+textarea {
+	font-family: sans-serif;
+    	font-size: 14px;
+   	margin: 4px;
+    	border: 0;
+   	background-color: #1B1E1F;
+   	color: #bbb;
+   	outline: none;
+   	padding: 5px;
+	width: 700px;
+}
+
+textarea:focus {
+    outline: none !important;
+    box-shadow: 0 0 5px rgba(31,178,176,1);
+}
+
 .active {
 	border-bottom: 5px #ff0000 solid;
 }
