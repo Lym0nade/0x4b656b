@@ -106,6 +106,9 @@ strong {
 	position: fixed;
     max-height: 50px;
 }
+.active {
+	color: #1FB0B2;
+}
 
 .pull-right {
 	float: right !important;
