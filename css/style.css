@@ -51,11 +51,8 @@ button {
 }
 
 input {
-	height: 20px;
-	width: 300px;
 	font-family: sans-serif;
     	font-size: 14px;
-    	margin: 4px;
     	border: 1px solid #1B1E1F;
     	background-color: #1B1E1F;
     	color: #bbb;
@@ -71,14 +68,18 @@ input:focus {
 }
 
 input.searcher {
+	height: 20px;
+	width: 300px;
+    	margin: 4px;
 	margin-top: 7.5px;
 }
 input.chat {
-	height: 30px;
-	width: 500px;
+	height: 50px;
+	width: 800px;
 	border: 1px solid #1b1e1f;
 	overflow: auto;
 	min-height: 50px;
+	align: center;
 }
 h1,
 h2,
