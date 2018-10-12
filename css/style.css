@@ -5,7 +5,7 @@ a {
     color: lightgrey;
 	padding: 12px;
     text-decoration: none;
-	transition: #1fb2b0 0.3s linear;
+	transition: #1fb2b0 0.3s ease;
 	-webkit-transition: 0.3s;
 	-moz-transition: 0.3s;
 	-o-transition: 0.3s;
