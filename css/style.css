@@ -107,6 +107,7 @@ input.chat {
 
 input.contact {
 	width: 300px;
+	min-height: 20px;
 }
 
 h1,
