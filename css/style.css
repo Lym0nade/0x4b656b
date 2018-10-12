@@ -45,11 +45,6 @@ body {
 }
 
 button {
-	background-color: #1fb0b2;
-	color: #fff;
-}
-
-button.searcher {
 	display: inline-block;
 	background-color: #1fb0b2;
 	color: #ffffff;
@@ -60,7 +55,7 @@ button.searcher {
 	float: left;
 }
 
-button.searcher:hover {
+button:hover {
 	background-color: #ffffff;
 	color: #1fb0b2;
 	transition: #1fb0b2 0.3s linear;
