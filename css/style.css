@@ -73,7 +73,13 @@ input:focus {
 input.searcher {
 	margin-top: 7.5px;
 }
-
+input.chat {
+	height: 30px;
+	width: 500px;
+	border: 1px solid #1b1e1f;
+	overflow: auto;
+	min-height: 50px;
+}
 h1,
 h2,
 h3,
