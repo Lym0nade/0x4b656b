@@ -5,10 +5,10 @@ a {
     color: lightgrey;
 	padding: 12px;
     text-decoration: none;
-	transition: #1fb2b0 0.08s linear;
-	-webkit-transition: 0.08s;
-	-moz-transition: 0.08s;
-	-o-transition: 0.08s;
+	transition: #1fb2b0 0.3s linear;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
 }
 
 a.footer {
