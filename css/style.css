@@ -100,15 +100,15 @@ strong {
 	padding-bottom: 60px;
 }
 
+.active {
+	border-bottom: 5px #ff0000 solid;
+}
+
 .navbar {
     padding-top: 0px;
 	padding-left: 0px;
 	position: fixed;
     max-height: 50px;
-}
-
-.active {
-	border-bottom: 5px #ff0000 solid;
 }
 
 .pull-right {
