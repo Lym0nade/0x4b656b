@@ -142,7 +142,7 @@ input.chat {
 
 input.contact {
 	width: 300px;
-	margin: 4px;
+	margin: 14px;
 	padding: 5px;
 	position: fixed !important;
 }
