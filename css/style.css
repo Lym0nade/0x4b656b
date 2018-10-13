@@ -79,6 +79,23 @@ div.form-row {
 	margin: 8px 0 12px 0;
 }
 
+div.icon-bar {
+	width: 100%;
+	overflow: auto;
+}
+
+div.icon-bar a {
+    float: left;
+    width: 33%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+div.icon-bar a:hover {
+	background-color: #555;
+}
+
 h1,
 h2,
 h3,
