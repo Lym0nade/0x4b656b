@@ -37,9 +37,9 @@
 		</div>
 		<hr />
 			<div class="tab">
- 				<button style="color: #1fb2b0" onclick="profile(event, 'Uploads')" id="defaultOpen"><i class="fa fa-upload"></i>&nbsp;Uploads</button>
-				<button style="color: white" onclick="profile(event, 'Comments')"><i class="fa fa-comments-o"></i>&nbsp;Comments</button>
-  				<button style="color: #CE107C" onclick="profile(event, 'Favorites')"><i class="fa fa-heart-o"></i>&nbsp;Favorites</button>
+ 				<button class="tablinks" style="color: #1fb2b0" onclick="profile(event, 'Uploads')"><i class="fa fa-upload"></i>&nbsp;Uploads</button>
+				<button class="tablinks" style="color: white" onclick="profile(event, 'Comments')"><i class="fa fa-comments-o"></i>&nbsp;Comments</button>
+  				<button class="tablinks" style="color: #CE107C" onclick="profile(event, 'Favorites')"><i class="fa fa-heart-o"></i>&nbsp;Favorites</button>
 			</div>
 
 			<div id="Uploads" class="tabcontent">
@@ -66,23 +66,23 @@
 		</div>
 	</footer>
 	<script>
-		function profile(evt, profileTab) { 
-		var i, tabcontent, tablinks;
-	    	tabcontent = document.getElementsByClassName("tabcontent");
+		function openCity(evt, cityName) {
+    		var i, tabcontent, tablinks;
 			
-	    	for (i = 0; i < tabcontent.length; i++) {
-			tabcontent[i].style.display = "none";
-	   	 }
+    		tabcontent = document.getElementsByClassName("tabcontent");
 			
-	    	tablinks = document.getElementsByClassName("tablinks");
-	    	for (i = 0; i < tablinks.length; i++) {
-			tablinks[i].className = tablinks[i].className.replace(" active", "");
-	    	}
+    		for (i = 0; i < tabcontent.length; i++) {
+        	tabcontent[i].style.display = "none";
+    		}
 			
-	    	document.getElementById(profileTab).style.display = "block";
-	    	evt.currentTarget.className += " active";
+    		tablinks = document.getElementsByClassName("tablinks");
 			
-		document.getElementById("defaultOpen").click();
+    		for (i = 0; i < tablinks.length; i++) {
+        	tablinks[i].className = tablinks[i].className.replace(" active", "");
+    		}
+			
+    		document.getElementById(cityName).style.display = "block";
+    		evt.currentTarget.className += " active";
 }
 	</script>
 </body>
