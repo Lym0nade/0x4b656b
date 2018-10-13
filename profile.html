@@ -34,27 +34,26 @@
 		</div>
 		<hr />
 		<div class="tab">
-		  <button class="tablinks" onclick="openTab(event, 'Uploads')">Uploads</button>
-		  <button class="tablinks" onclick="openTab(event, 'Comments')">Comments</button>
-		  <button class="tablinks" onclick="openTab(event, 'Favorites')">Favorites</button>
-		</div>
-		<div id="Uploads" class="tabcontent">
-			<span onclick="this.parentElement.style.display='none'" class="closer"><i class="fas fa-times"></i></span>
-			 <h3>Uploads</h3>
-			 <p>Dis dude uploaded some crazy shit!</p>
-		</div>
+ 				<button style="color: #1fb2b0" onclick="profile(event, 'Uploads')"><i class="fa fa-upload"></i>&nbsp;Uploads</button>
+				<button style="color: white" onclick="profile(event, 'Comments')"><i class="fa fa-comments-o"></i>&nbsp;Comments</button>
+  				<button style="color: #CE107C" onclick="profile(event, 'Favorites')"><i class="fa fa-heart-o"></i>&nbsp;Favorites</button>
+			</div>
 
-		<div id="Comments" class="tabcontent">
-			<span onclick="this.parentElement.style.display='none'" class="closer"><i class="fas fa-times"></i></span>
-			<h3>Comments</h3>
-			<p>Dis dude wrote some crazy shit!</p> 
-		</div>
+			<div id="Uploads" class="tabcontent">
+				 <span onclick="this.parentElement.style.display='none'"><i class="closer fas fa-times"></i></span>
+ 				 <h3>Uploads</h3>
+			</div>
 
-		<div id="Favorites" class="tabcontent">
-			<span onclick="this.parentElement.style.display='none'" class="closer"><i class="fas fa-times"></i></span>
-		  	<h3>Favorites</h3>
-		  	<p>Dis dude favorized some crazy shit!</p>
-		</div>
+			<div id="Comments" class="tabcontent">
+ 				<span class="closer" onclick="this.parentElement.style.display='none'"><i class="closer fas fa-times"></i></span>
+  				<h3>Comments</h3>
+			</div>
+
+			<div id="Favorites" class="tabcontent">
+  				<span class="closer" onclick="this.parentElement.style.display='none'"><i class="closer fas fa-times"></i></span>
+  				<h3>Favorites</h3>
+			</div>
+
 	</div>
 	<footer>
 		<div id="footer">
