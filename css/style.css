@@ -196,12 +196,17 @@ strong {
 }
 
 .tab button {
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 15px 15px;
-    transition: 0.3s;
+    	float: left;
+    	border: none;
+    	outline: none;
+    	cursor: pointer;
+    	padding: 15px 15px;
+   	transition: 0.3s;
+	display: inline-block;
+	background-color: rgba(16,16,18,100);
+	border: 0px #1fb0b2 solid;
+	cursor: pointer;
+	padding: 0px;
 }
 
 .tab button:hover {
