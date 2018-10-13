@@ -68,8 +68,8 @@ button:hover {
 	text-shadow: 2px 2px 5px #1fb0b2;
 }
 
-div.cat-active-users {
-	width: 450px;
+div.chat-active-users {
+	width: 250px;
 	height: auto;
 	background-color: #aaaaaa;
 	border: 1px #1fb0b2 solid;
@@ -80,27 +80,27 @@ div.form-row {
 }
 
 div.tab {
-    overflow: hidden;
+    	overflow: hidden;
 }
 
 div.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
+    	background-color: inherit;
+    	float: left;
+    	border: none;
+    	outline: none;
+    	cursor: pointer;
+    	padding: 14px 16px;
+    	transition: 0.3s;
 }
 
 div.tab button:hover {
-    text-decoration: underline;
+    	text-decoration: underline;
 }
 .tabcontent {
-    display: none;
-    border-top: none;
+    	display: none;
+    	border-top: none;
 	-webkit-animation: fadeEffect 0.8s;
-    animation: fadeEffect 0.8s;
+    	animation: fadeEffect 0.8s;
 }
 
 @-webkit-keyframes fadeEffect {
