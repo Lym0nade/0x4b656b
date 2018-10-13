@@ -33,10 +33,27 @@
 			<h1>Username</h1><h4 class="pull-right">Joined: 1000 B.C.</h4>
 		</div>
 		<hr />
-		<div class="icon-bar">
-			<a href=""><h3 style="color:#1fb0b2"><i class="fas fa-upload" aria-hidden="true"></i>&nbsp;Uploads</h3></a>
-			<a href=""><h3 style="color:white"><i class="far fa-comment-dots aria-hidden="true"></i>Comments</h3></a>
-			<a href=""><h3 style="color:#e51a7f"><i class="far fa-comment-dots aria-hidden="true"></i>Favorites</h3></a>
+		<div class="tab">
+		  <button class="tablinks" onclick="openTab(event, 'Uploads')">Uploads</button>
+		  <button class="tablinks" onclick="openTab(event, 'Comments')">Comments</button>
+		  <button class="tablinks" onclick="openTab(event, 'Favorites')">Favorites</button>
+		</div>
+		<div id="Uploads" class="tabcontent">
+			<span onclick="this.parentElement.style.display='none'" class="closer"><i class="fas fa-times"></i></span>
+			 <h3>Uploads</h3>
+			 <p>Dis dude uploaded some crazy shit!</p>
+		</div>
+
+		<div id="Comments" class="tabcontent">
+			<span onclick="this.parentElement.style.display='none'" class="closer"><i class="fas fa-times"></i></span>
+			<h3>Comments</h3>
+			<p>Dis dude wrote some crazy shit!</p> 
+		</div>
+
+		<div id="Favorites" class="tabcontent">
+			<span onclick="this.parentElement.style.display='none'" class="closer"><i class="fas fa-times"></i></span>
+		  	<h3>Favorites</h3>
+		  	<p>Dis dude favorized some crazy shit!</p>
 		</div>
 	</div>
 	<footer>
@@ -45,5 +62,23 @@
 			<a href="about.html" class="footer">About</a>|<a href="irc.html" class="footer">IRC</a>|<a href="rules.html" class="footer">Rules</a>|<a href="faq.html" class="footer">FAQ</a>|<a href="contact.html" class="footer">Contact</a>
 		</div>
 	</footer>
+	<script>
+		function openTab(evt, tabName) {
+		    var i, tabcontent, tablinks;
+			
+		    tabcontent = document.getElementsByClassName("tabcontent");
+		    for (i = 0; i < tabcontent.length; i++) {
+			tabcontent[i].style.display = "none";
+		    }
+			
+		    tablinks = document.getElementsByClassName("tablinks");
+		    for (i = 0; i < tablinks.length; i++) {
+			tablinks[i].className = tablinks[i].className.replace(" active", "");
+		    }
+			
+		    document.getElementById(tabName).style.display = "block";
+		    evt.currentTarget.className += " active";
+		}
+	</script>
 </body>
 </html>
