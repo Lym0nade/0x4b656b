@@ -94,8 +94,9 @@ div.tab button {
 }
 
 div.tab button:hover {
-    	text-decoration: underline;
+    	background-color: #555;
 }
+
 .tabcontent {
     	display: none;
     	border-top: none;
