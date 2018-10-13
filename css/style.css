@@ -164,6 +164,7 @@ ul.navbar-header {
 li.nav {
 	float: left;
 	text-align: center;
+	list-style-type: none;
 }
 
 li {list-style-type: disc;}.c1 {color:red}.c2{color:yellow}.c3{color:blue}.c4{color:mediumpurple}.c5{color:cyan}.c6{color:white}.c7{color:green}
