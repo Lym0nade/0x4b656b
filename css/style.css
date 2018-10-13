@@ -78,29 +78,29 @@ div.form-row {
 	margin: 8px 0 12px 0;
 }
 
-div.tab {
-    	overflow: hidden;
+iv.tab {
+    overflow: hidden;
 }
 
 div.tab button {
-    	background-color: inherit;
-    	float: left;
-    	border: none;
-    	outline: none;
-    	cursor: pointer;
-    	padding: 14px 16px;
-    	transition: 0.3s;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
 }
 
 div.tab button:hover {
-    	background-color: #555;
+    background-color: #555;
 }
 
 .tabcontent {
-    	display: none;
-    	border-top: none;
+    display: none;
+    border-top: none;
 	-webkit-animation: fadeEffect 0.8s;
-    	animation: fadeEffect 0.8s;
+    animation: fadeEffect 0.8s;
 }
 
 @-webkit-keyframes fadeEffect {
