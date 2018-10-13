@@ -75,6 +75,10 @@ div.cat-active-users {
 	border: 1px #1fb0b2 solid;
 }
 
+div.form-row {
+	margin: 8px 0 12px 0;
+}
+
 h1,
 h2,
 h3,
@@ -142,7 +146,6 @@ input.chat {
 
 input.contact {
 	width: 300px;
-	margin: 14px;
 	padding: 5px;
 	position: fixed !important;
 }
