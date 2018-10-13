@@ -146,8 +146,6 @@ input.chat {
 
 input.contact {
 	width: 300px;
-	padding: 5px;
-	position: fixed !important;
 }
 
 ul.about {
@@ -192,8 +190,9 @@ textarea {
    	background-color: #1B1E1F;
    	color: #bbb;
    	outline: none;
-   	padding: 5px;
+   	padding: 7px;
 	width: 700px;
+	overflow: auto;
 }
 
 textarea:focus {
