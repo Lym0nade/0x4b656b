@@ -75,6 +75,35 @@ div.cat-active-users {
 	border: 1px #1fb0b2 solid;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #ffffff;
+	display: block;
+	font-weight: 500;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+hr {
+	width: 98%;
+	color: #888888;
+}
+
 img {
 	margin-left: 5px;
 	margin-right: 5px;
@@ -115,35 +144,7 @@ input.contact {
 	width: 300px;
 	margin: 4px;
 	min-height: 20px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #ffffff;
-	display: block;
-	font-weight: 500;
-}
-
-h1 {
-	font-size: 35px;
-}
-
-h2 {
-	font-size: 30px;
-}
-
-h4 {
-	font-size: 20px;
-}
-
-hr {
-	width: 98%;
-	color: #888888;
+	padding: 5px;
 }
 
 ul.about {
@@ -188,7 +189,7 @@ textarea {
    	background-color: #1B1E1F;
    	color: #bbb;
    	outline: none;
-   	padding: 5px 5px 5px 5px;
+   	padding: 5px;
 	width: 700px;
 }
 
