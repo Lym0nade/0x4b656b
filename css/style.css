@@ -143,8 +143,8 @@ input.chat {
 input.contact {
 	width: 300px;
 	margin: 4px;
-	min-height: 20px;
 	padding: 5px;
+	position: fixed !important;
 }
 
 ul.about {
