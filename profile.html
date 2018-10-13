@@ -36,7 +36,7 @@
 		</div>
 		<hr />
 			<div class="tab">
- 				<button style="color: #1fb2b0" onclick="profile(event, 'Uploads')"><i class="fa fa-upload"></i>&nbsp;Uploads</button>
+ 				<button style="color: #1fb2b0" onclick="profile(event, 'Uploads')" id="defaultOpen"><i class="fa fa-upload"></i>&nbsp;Uploads</button>
 				<button onclick="profile(event, 'Comments')"><i class="fa fa-comments-o"></i>&nbsp;Comments</button>
   				<button style="color: #CE107C" onclick="profile(event, 'Favorites')"><i class="fa fa-heart-o"></i>&nbsp;Favorites</button>
 			</div>
@@ -80,6 +80,8 @@
 			
 	    	document.getElementById(profileTab).style.display = "block";
 	    	evt.currentTarget.className += " active";
+			
+		document.getElementById("defaultOpen").click();
 }
 	</script>
 </body>
