@@ -78,7 +78,7 @@ div.form-row {
 	margin: 8px 0 12px 0;
 }
 
-iv.tab {
+div.tab {
     overflow: hidden;
 }
 
@@ -93,7 +93,7 @@ div.tab button {
 }
 
 div.tab button:hover {
-    background-color: #555;
+    text-decoration: underline;
 }
 
 .tabcontent {
@@ -112,6 +112,7 @@ div.tab button:hover {
     from {opacity: 0;}
     to {opacity: 1;}
 }
+
 
 h1,
 h2,
