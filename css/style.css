@@ -92,7 +92,8 @@ div.tab button {
 }
 
 div.tab button:hover {
-    text-decoration: none;
+    	text-decoration: none;
+	text-shadow: none;
 }
 
 div.tab button.active {
