@@ -222,14 +222,16 @@ strong {
 	font-style: bold;
 }
 
-.closer {
-	float: right;
-	cursor: pointer;
-	font-size: 30;
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
 }
 
-.closer:hover {
-	color: red;
+th, td {
+    text-align: left;
+    padding: 16px;
 }
 
 textarea {
@@ -256,6 +258,16 @@ textarea:focus {
 	border-bottom: 5px #ff0000 solid;
 }
 
+.closer {
+	float: right;
+	cursor: pointer;
+	font-size: 30;
+}
+
+.closer:hover {
+	color: red;
+}
+
 .content {
 	width: 970px;
 	margin-right: auto;
@@ -265,6 +277,7 @@ textarea:focus {
 	padding-top: 40px;
 	padding-bottom: 60px;
 }
+
 .icon-bar {
 	float: left;
 	width: 5%;
