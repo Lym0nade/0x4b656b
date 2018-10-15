@@ -240,7 +240,7 @@ th {
 
 tr:hover {
 	background-color: #3a3a3a;
-	font-color: #1fb0b2;
+	color: #1fb0b2;
 }
 
 tr.light {
@@ -249,7 +249,7 @@ tr.light {
 
 tr.light:hover {
 	background-color: #3a3a3a;
-	font-color: #1fb0b2;
+	color: #1fb0b2;
 }
 
 textarea {
