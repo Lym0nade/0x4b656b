@@ -289,7 +289,7 @@ textarea:focus {
 #footer {
 	width: 100%;
 	height: 40px;
-	background: rgba(5,5,5,0);
+	background-color: rgba(16,16,18,50);
 	color: dimgrey;
 	position: fixed;
 	bottom: 0px;
