@@ -54,8 +54,15 @@
 			</div>
 			<div id="Favorites" class="tabcontent">
 				<span onclick="this.parentElement.style.display='none'" class="topright closer"><i class="fas fa-times"></i></span>
-			  	<h2>Favorites</h2>
-			  	<p>Dis dude favorized some crazy shit!</p>
+			  	<button class="tablinks" onclick="openTab(event, 'fav-Uploads')" style="color:#7937FC"><i class="fas fa-heart"></i>&nbsp;Uploads</button>
+				<div id="fav-Uploads" class="tabcontent">
+					
+				</div>
+				<button class="tablinks" onclick="openTab(event, 'fav-Comments')" style="color:white"><i class="fas fa-tags"></i>&nbsp;Comments</button>
+			  	<div id="fav-Comments" class="tabcontent">
+					
+				</div>
+			</div>
 			</div>
 			<div id="Tags" class="tabcontent">
 				<span onclick="this.parentElement.style.display='none'" class="topright closer"><i class="fas fa-times"></i></span>
