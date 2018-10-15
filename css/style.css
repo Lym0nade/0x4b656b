@@ -83,6 +83,7 @@ div.tab {
 
 div.tab button {
 	background-color: inherit;
+	font-size: 40px;
     float: left;
     border: none;
     outline: none;
