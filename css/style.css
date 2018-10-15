@@ -246,6 +246,10 @@ tr.light {
 	background-color: #171B1D;
 }
 
+tr.light:hover {
+	background-color: #3a3a3a;
+}
+
 textarea {
 	height: 96px;
 	font-family: sans-serif;
