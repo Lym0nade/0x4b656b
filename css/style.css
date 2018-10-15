@@ -238,6 +238,10 @@ th {
 	background-color: rgba(16,16,18,1);
 }
 
+tr:hover {
+	background-color: #3a3a3a;
+}
+
 tr.light {
 	background-color: #171B1D;
 }
