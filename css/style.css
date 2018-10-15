@@ -234,10 +234,6 @@ th {
 	background-color: rgba(16,16,18,1);
 }
 
-th:hover {
-	color: #B8B8B9;
-}
-
 tr:hover, td:hover {
 	background-color: #3a3a3a;
 	color: #1fb0b2;
