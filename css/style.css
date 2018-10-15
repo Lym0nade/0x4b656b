@@ -245,10 +245,12 @@ tr:hover, td:hover {
 
 tr:hover a {
 	color: #1fb0b2;
+	text-decoration: underline;
 }
 
 td:hover a {
 	color: #1fb0b2;
+	text-decoration: underline;
 }
 
 tr.light {
