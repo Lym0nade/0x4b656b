@@ -28,6 +28,22 @@
 			</ul>
 		</div>
 	</nav>
+	<!-- :::::::::::::::::==== GAME STARTS HERE ====::::::::::::::::: -->
+            <h1>Level 1</h1>
+            <div>Easy beginnings</div>
+            <input id="pw" type="password" />
+            <br/><input type="button" value="OK" onClick="checkPW()"/>
+            <script type="text/javascript">
+                function checkPW()
+                {
+                    var el = document.getElementById('pw');
+                    if(el.value=="tooeasy")
+                        document.location.href="?pw="+el.value;
+                    else alert("Wrong password!");
+                }
+            </script>
+        <!-- ::::::::::::::::::==== GAME ENDS HERE ====:::::::::::::::::: -->
+
 	<footer>
 		<div id="footer">
 			&nbsp;Inspired by<a href="https://w0bm.com/" class="footer">w0bm.com</a><br>
