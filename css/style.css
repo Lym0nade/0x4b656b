@@ -5,7 +5,7 @@ a {
     color: lightgrey;
 	padding: 12px;
     	text-decoration: none;
-	transition: #1fb2b0 0.3s ease;
+	transition: #1fb0b2 0.3s ease;
 	-webkit-transition: 0.3s;
 	-moz-transition: 0.3s;
 	-o-transition: 0.3s;
@@ -240,6 +240,7 @@ th {
 
 tr:hover {
 	background-color: #3a3a3a;
+	font-color: #1fb0b2;
 }
 
 tr.light {
@@ -248,6 +249,7 @@ tr.light {
 
 tr.light:hover {
 	background-color: #3a3a3a;
+	font-color: #1fb0b2;
 }
 
 textarea {
