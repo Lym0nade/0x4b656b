@@ -98,10 +98,6 @@ div.tab button:hover {
 	background-color: #3F3F3F;
 }
 
-div.tab button.active {
-    underline: 3px #1fb0b2 solid;
-}
-
 .tabcontent {
     display: none;
     border-top: none;
@@ -238,8 +234,20 @@ th {
 	background-color: rgba(16,16,18,1);
 }
 
+th:hover {
+	color: #B8B8B9;
+}
+
 tr:hover, td:hover {
 	background-color: #3a3a3a;
+	color: #1fb0b2;
+}
+
+tr:hover a {
+	color: #1fb0b2;
+}
+
+td:hover a {
 	color: #1fb0b2;
 }
 
