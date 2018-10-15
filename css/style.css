@@ -94,6 +94,7 @@ div.tab button {
 div.tab button:hover {
     	text-decoration: none;
 	text-shadow: none;
+	background-color: #fff;
 }
 
 div.tab button.active {
