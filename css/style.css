@@ -230,6 +230,28 @@ table {
     border: 1px solid #1fb0b2;
 }
 
+textarea {
+	height: 96px;
+	font-family: sans-serif;
+    	font-size: 14px;
+    	padding: 7px;
+	padding-left: 10px;
+	padding-right: 10px;
+   	margin: 4px;
+    	border: 0px;
+   	background-color: #1B1E1F;
+   	color: #bbb;
+   	outline: none;
+	width: 700px;
+	overflow: auto;
+}
+
+textarea:focus {
+    	outline: none !important;
+    	box-shadow: 0 0 5px rgba(31,178,176,1);
+	max-width: 960px;
+}
+
 th, td {
     text-align: left;
     padding: 16px;
@@ -262,25 +284,6 @@ tr.light {
 tr.light:hover {
 	background-color: #3a3a3a;
 	color: #1fb0b2;
-}
-
-textarea {
-	height: 96px;
-	font-family: sans-serif;
-    	font-size: 14px;
-   	margin: 4px;
-    	border: 0px;
-   	background-color: #1B1E1F;
-   	color: #bbb;
-   	outline: none;
-	width: 700px;
-	overflow: auto;
-}
-
-textarea:focus {
-    	outline: none !important;
-    	box-shadow: 0 0 5px rgba(31,178,176,1);
-	max-width: 960px;
 }
 
 .active {
